@@ -1,77 +1,94 @@
+.container{
+    margin: auto;
+    /* border: 1px solid black; */
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+     
+}
+i{
+    margin-right: 10px;
+    
+    
+}
 
-/* .main{
+li{
+    display: inline;
+    margin-right: 10px;
+    color: rgba(0,0,0,0.87);
+    font-family: arial,sans-serif;
+
+    font-size: 13px;
+
+}
+.google{
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    height: 500px;
     text-align: center;
     justify-content: center;
-} */
+    align-items: center;
+}
+input{
+    
+    width: 550px;
+    height: 44px;
+    /* border-radius: 10px; */
+    outline: none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    /* border:1px solid black; */
+    padding-left: 10px;
+    border: none;
 
-body{
-    height: 100vh;
+
+}
+.input{
+    margin-top: 10px;
+    border: 1px solid #dfe1e5;
+    height: auto;
+    width: 630px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
     display: flex;
+    
+   
+}
+button{
+    margin: 35px 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    height: 36px;
+    width: 140px;
+    cursor: pointer;
+    text-align: center;
+    border:1px solid #dfe1e5 ;
+    outline: olive;
+    border: none;
+    font-family: arial, sans-serif;
+    /* font-size: 15px; */
+    color: rgb(95, 99, 104);
+    font-size: 15px;
     justify-content: center;
     align-items: center;
 }
-.img{
-    position: fixed;
-    top: 22%;
-    margin-left: 150px;
-    height:90px;
-    
-    
-}
-.main{
-    width: 570px;
-    height: 5px;
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    border: 1px solid #E3E2E2;
-   
-    
-}
-.main > i{
-    font-size: 20px;
-    color: #777777;
-}
-.main > input{
-    flex: 1;
-    height: 40px;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    margin-left: 10px;
-}
-.btn{
-text-align: center;
-justify-content: center;
-display: flex;
-margin-top: 30px;
-}
-.container{
-    height: auto;
-    width: auto;
-}
-button{
-    margin: 5px;
-    height: 35px;
-    width: 130px;
-    border: none;
-    color: #5F6368;
-    font-family: arial,sans-serif;
-    font-size: 15px;
+img{
+    height: 95px;
+    margin-bottom: 40px;
 }
 p{
-    display: inline;
-    margin-left: 10px;
-
-    
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px;
 }
-.p{
-    margin-top: 30px;
-    font-size: 13px;
-    margin-left: 10px;
-}
-.col{
+.foot{
     color: blue;
+}
+a{
+    
 }
